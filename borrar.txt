@@ -1,3 +1,6 @@
 Hay que borrar este archivo
 
 Desde la web...
+
+
+A lechuga no le sincroniza
