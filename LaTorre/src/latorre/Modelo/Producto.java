@@ -90,5 +90,15 @@ public class Producto extends Conector{
         int a = 0;
         return resultado;
     }
+
+public String consultar_precio_x_prueba_de_uso (int ID){
+        String resultado = null;
+        String[][] datos = null;
+        String SQL = "SELECT precio_costo FROM "+ tabla+" WHERE "+" id_producto = "+ID+";";
+        datos = this.consulta_registros(SQL);
+        resultado = datos[0][0]; //Se manda toda la fila;
+        int a = 0;
+        return resultado;
+    }
 }
 
